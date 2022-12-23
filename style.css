@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 30px; ;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar ul li a{
+    text-decoration:solid;
+    color:rgb(46, 50, 38);
+    padding:8px 25px ;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+   
+}
+#home{
+    display:flex ;
+    flex-direction:column ;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#home::before{
+    content: "";
+    position:absolute ;
+    top:0 ;
+    right:0 ;
+    background:url("images/home.jpeg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+}
+.main{
+    align-items: center;
+    position: absolute;
+    top:40% ;
+    right:70% ;
+    width: 20%;
+    font-size: 23px;
+}
+.main a{
+    background: #212121;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 0px 24px;
+    border-radius: 7px;
+}
+
+#About {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 200px;
+    text-align: justify;
+    font-size: 20px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 600px;
+    height: 300px;
+    margin-right: 10px;
+}
+#About::before{
+    content: "";
+    position:absolute ;
+    top:0 ;
+    right:0 ;
+    background:url("images/about.jpg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.continer{
+    width: 100%;
+    margin: 40px auto;
+    font-size: 16px;
+}
+.continer::before{
+    content: "";
+    position:absolute ;
+    top:0 ;
+    right:0 ;
+    background:url("images/contact\ image.jpeg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7; 
+}
+.contact-box{
+     display: flex;
+}
+.contact-left{
+   flex-basis: 45%;
+   padding: 40px 60px; 
+   margin-left: 65px;
+
+}
+.contact-right{
+    flex-basis: 45%;
+    padding: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+ }
+ h1{
+    margin-bottom: 10px;
+}
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row.input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+   textarea {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+button{
+    background: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(27, 0, 181, 0.5);
+}
+.contact-left h3{
+    color: black;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td {
+    padding-top: 20px;
+    
+}
